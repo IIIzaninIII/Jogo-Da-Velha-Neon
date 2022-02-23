@@ -1,0 +1,173 @@
+body{
+    font-family: Arial, Helvetica, sans-serif, Helvetica, sans-serif;
+    background-color: black;
+    color: red;
+    text-align: center;
+    cursor: default;
+}
+
+hr{
+    border: 1px solid red;
+}
+
+#campo{
+    display: inline-block;
+    margin: 8px 0;
+}
+
+#px{
+    align-items: center;
+    display: inline-block;
+    justify-content: center;
+    width: 80px;
+    height: 40px;
+    border: solid;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+#empate{
+    align-items: center;
+    display: inline-block;
+    justify-content: center;
+    width: 140px;
+    height: 40px;
+    border: solid;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+#po{
+    align-items: center;
+    display: inline-block;
+    justify-content: center;
+    width: 80px;
+    height: 40px;
+    border: solid;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+#po p{
+    margin: 8.5px;
+}
+
+#px p{
+    margin: 8.5px;
+}
+
+#empate p{
+    margin: 8.5px;
+}
+
+#vez{
+    align-items: center;
+    display: inline-block;
+    justify-content: center;
+    width: 325px;
+    height: 40px;
+    border: solid;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+#vez1{
+    margin: 8.5px;
+}
+
+table{
+    margin: auto;
+    display: inline-block;
+}
+td{
+    font-family: Arial, Helvetica, sans-serif, Helvetica, sans-serif;
+    border: solid;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.changeColor{
+    transition: 250ms;
+    font-size: 80px;
+    background-color: black;
+    border-color: red;
+}
+
+.changeColor:hover{
+    background-color: red;
+    color: black
+}
+
+#reset{
+    align-items: center;
+    display: inline-block;
+    justify-content: center;
+    width: 325px;
+    height: 40px;
+    border: solid;
+    border-radius: 20px;
+    top: 50%;
+    transition: 250ms;
+    cursor: pointer;
+}
+
+#reset:hover{
+    background-color: red;
+    border-color: red;
+    color: black
+}
+
+#reset p{
+    margin: 11px;
+}
+
+.music{
+    position: fixed;
+    width: 160px;
+    bottom: 0;
+    text-align: center;
+}
+
+.musicElement{
+    transition: 300ms;
+    cursor: pointer;
+}
+
+
+.musicElement:hover{
+    background-color: red;
+    color: black;
+    border-radius: 20%;
+    padding: 5px;
+}
+
+.vermelho{
+    background-color: red;
+    color: black;
+    font-size: 80px;
+    border-color: red;
+}
+
+/*extras*/
+
+.glow {
+    color: red;
+    text-shadow: 0 0 10px;
+    text-align: center;
+    animation: glow 0.6s ease-in-out infinite alternate;
+  }
+
+  
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px rgb(255, 0, 0), 0 0 20px rgb(255, 0, 0), 0 0 30px , 0 0 40px #e60000, 0 0 50px rgb(230, 0, 0), 0 rgb(230, 0, 0);
+    }
+    
+    to {
+      text-shadow: 0 0 20px red, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 70px red, 0 0 80px red;
+    }
+  }
